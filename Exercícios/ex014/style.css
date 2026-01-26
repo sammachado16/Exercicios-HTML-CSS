@@ -1,0 +1,18 @@
+body {
+        background-color: lightblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h1 {
+        color: blue;
+        background-color: aqua;
+    }
+
+    h2 {
+        color: red;
+        background-color: firebrick;
+    }
+
+    p {
+        text-align: justify;
+    }
