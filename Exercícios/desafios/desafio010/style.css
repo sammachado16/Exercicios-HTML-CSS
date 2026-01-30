@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #3aa05c52;
+    margin: 0px;
+}
+
+header {
+    background-image:linear-gradient(to bottom, #07F558, #28CA5E, #3AA05C) ;
+}
+
+header > h1 {
+    color: white;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.199);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin: 0px;
+}
+
+header > p {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.596);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px 0px 15px 0px;
+    margin: 0px;
+}
+
+header > nav {
+    padding: 10px 0px 5px 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.596);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+main {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: white;
+}
