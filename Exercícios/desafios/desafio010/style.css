@@ -95,6 +95,13 @@ p > a {
     padding-bottom: 15px;
 }
 
+div {
+    background-color: rgb(167, 247, 220);
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
 div > iframe {
     width: 100%;
     padding: 10px 20px 10px 20px;
@@ -104,7 +111,7 @@ div > iframe {
 
 div > h3 {
     border-radius: 10px 10px 0px 0px;
-    margin: 15px 15px 0px 15px;
+    margin: 0px 0px 0px 0px;
     padding: 10px;
     background-color: #3AA05C;
     color: white;
@@ -120,7 +127,10 @@ div > p {
 }
 
 div > ul {
-    list-style-type: symbols();
+    display: inline-block;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    list-style-type: "\2714  ";
     background-color: rgb(167, 247, 220);
     margin: 0px 15px 0px 15px
 }
@@ -150,4 +160,8 @@ a:hover {
 a:active{
     color: yellow;
     text-decoration: underline;
+}
+
+.align{
+    box-align: end;
 }
