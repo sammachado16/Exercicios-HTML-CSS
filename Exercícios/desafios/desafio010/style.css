@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-image:linear-gradient(to bottom, #07F558, #28CA5E, #3AA05C) ;
+    background-image:linear-gradient(to bottom, #3AA05C, #1a4729) ;
 }
 
 header > h1 {
@@ -41,7 +41,7 @@ header > nav {
 nav > a {
     color: white;
     text-decoration: none;
-    margin-right: 15px;
+    padding: 6px;
 }
 
 .center {
@@ -81,10 +81,16 @@ main > h2 {
     padding-left: 10px;
 }
 
-p > a {
-    color: #1a4729;
+strong > a {
+    color: black;
+    background-color: #07f55683;
+    border-radius: 5px;
+    padding: 2px;
     text-decoration: none;
-    font-style: bold;
+}
+
+strong {
+    color:#1a4729;
 }
 
 .padding-top{
@@ -153,15 +159,23 @@ footer > p{
 }
 
 a:hover {
-    color:aqua;
+    color: purple;
     text-decoration: underline;
 }
 
+nav > a:hover {
+    background-color: #3AA05C;
+    transition: opacity;
+    padding: 6px;
+    color: #1a4729;
+    border-radius: 2px;
+    text-decoration: none;
+}
 a:active{
     color: yellow;
     text-decoration: underline;
 }
 
-.align{
-    box-align: end;
+.width {
+    width: 100%;
 }
