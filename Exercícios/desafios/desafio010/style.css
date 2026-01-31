@@ -59,6 +59,7 @@ main {
 
 main > h1 {
     font-family: 'idroid';
+    color: #1a4729;
     font-size: 1.5em;
     margin: 0px;
     padding: 10px 0px 10px 15px;
@@ -67,6 +68,86 @@ main > h1 {
 main > p {
     text-align: justify;
     text-indent: 2em;
-    padding: 0px 15px 15px 15px;
+    padding: 0px 15px 0px 15px;
     margin: 0px;
+}
+
+main > h2 {
+    font-family: 'idroid';
+    color: #1a4729;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, #07f55683, #07f55600);
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+p > a {
+    color: #1a4729;
+    text-decoration: none;
+    font-style: bold;
+}
+
+.padding-top{
+    padding-top: 15px;
+}
+
+.padding-bottom{
+    padding-bottom: 15px;
+}
+
+div > iframe {
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    margin: 0px;
+    background-color: #1a4729;
+}
+
+div > h3 {
+    border-radius: 10px 10px 0px 0px;
+    margin: 15px 15px 0px 15px;
+    padding: 10px;
+    background-color: #3AA05C;
+    color: white;
+    font-size: 1em;
+}
+
+div > p {
+    margin: 0px 15px 0px 15px;
+    padding: 5px 10px 10px 10px;
+    text-indent: 15px;
+    text-align: justify;
+    background-color: rgb(167, 247, 220);
+}
+
+div > ul {
+    list-style-type: symbols();
+    background-color: rgb(167, 247, 220);
+    margin: 0px 15px 0px 15px
+}
+
+.radius {
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer {
+    color: white;
+    background-color: #1a4729;
+    margin: 0px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer > p{
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+}
+
+a:hover {
+    color:aqua;
+    text-decoration: underline;
+}
+
+a:active{
+    color: yellow;
+    text-decoration: underline;
 }
