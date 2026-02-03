@@ -16,13 +16,33 @@
 
 #flor {
     background: black url(../imagens/background001.jpg) right center / cover no-repeat fixed;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);
 
 }
 
-.com-fundo{
+#flor > p{
     display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0px 5px 0px 5px;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+#carta {
+    background: black url(../imagens/background002.jpg) left top / cover no-repeat fixed;
     color: white;
-    background-color: blue;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.281);
+}
+
+#carta > p{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0px 5px 0px 5px;
+    background-color: rgba(0, 0, 0, 0.658);
 }
 
 header {
@@ -30,7 +50,8 @@ header {
 }
 
 header h1 {
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
     text-align: center;
     color: white;
     font-family: var(--fonte-especial);
@@ -39,7 +60,7 @@ header h1 {
 
 header p {
     color: white;   
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
@@ -60,4 +81,23 @@ main p {
     padding-top: 40px;
     padding-bottom: 40px;
     line-height: 2em;
+}
+
+footer {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
