@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroups</title>
+    <style>
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        #cpais {
+            background-color: lightblue;
+        }
+
+        #cprimeirolider {
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col id="cpais">
+        <col id="cprimeirolider">
+        <col>
+        <col>
+    </colgroup>
+        <tr>
+            <th scope="col">País</th>
+            <th scope="col">Primeiro Líder</th>
+            <th scope="col">Atual Líder</th>
+            <th scope="col">Líder mais longevo</th>
+        </tr>
+        <tr>
+            <td>Brasil</td>
+            <td>Dom Pedro I</td>
+            <td>Lula</td>
+            <td>Getúlio Vargas</td>
+        </tr>
+        <tr>
+            <td>Estados Unidos</td>
+            <td>George Washington</td>
+            <td>Donald Trump</td>
+            <td>Franklin Roosevelt</td>
+        </tr>
+        <tr>
+            <td>França</td>
+            <td>Louis-Napoléon Bonaparte</td>
+            <td>Emmanuel Macron</td>
+            <td>François Mitterrand</td>
+        </tr>
+        <tr>
+            <td>Alemanha</td>
+            <td>Otto von Bismarck</td>
+            <td>Friedrich Merz</td>
+            <td>Otto von Bismarck</td>
+        </tr>
+    </table>
+</body>
+</html>
