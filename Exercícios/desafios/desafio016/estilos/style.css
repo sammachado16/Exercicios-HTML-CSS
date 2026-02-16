@@ -58,7 +58,7 @@ main {
 @media screen and (max-width:434px) {
     .container {
         display: flex;
-        flex-flow: column;
+        flex-flow: column wrap;
         justify-content: flex-start;
     }
 
