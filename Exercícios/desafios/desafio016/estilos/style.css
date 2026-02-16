@@ -31,6 +31,12 @@ body {
     padding: 7px;
     background-color: black;
     border-radius: 5px;
+    transition: background-color .5s;
+}
+
+.opcao:hover {
+    background-color: lightgray;
+    color: black;
 }
 
 #titulo {
@@ -41,7 +47,7 @@ body {
     text-shadow: 1px 1px 1px black;
 }
 
-section {
+main {
     background-color: rgb(255, 255, 255);
     margin: 10px;
     border-radius: 10px;
@@ -62,7 +68,7 @@ section {
 
     .item {
         flex: auto;
-        width: 90vw;
+        width: 93vw;
         text-align: center;
     }
 }
