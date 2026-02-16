@@ -7,35 +7,60 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: 1em;
 
-main {
-    background-color: lightgray;
 }
 
-div#reverse {
+p, h1, h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+header {
+    padding: 10px;
+}
+
+section.flex-content {
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.media-text {
     display: flex;
     flex-flow: row wrap-reverse;
-    justify-content: center;
-}   
+    justify-content: space-between;
+}
 
-h2 {
-    font-size: 1.2em;
+article > div.text {
+    flex: 1 1 200px;
+}
+
+article > div.media {
+    flex: 1 0 200px;
+}
+
+div.media > img {
+    display: block;
+    margin: auto;
     padding: 10px;
-}
-div#paragrafo {
-    display: flex;
-    font-size: 0.8em;
-    padding: 10px;
-}
-
-.texto {
-    flex: 3 1 auto;
-}
-
-
-
-main > div  img {
     width: 300px;
-    height: 200px;
-    padding: 10px;
+}
+
+div.media > iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
 }
