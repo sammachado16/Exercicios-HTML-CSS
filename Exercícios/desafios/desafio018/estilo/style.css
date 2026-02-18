@@ -9,14 +9,17 @@
 
 .container {
     display: grid;
-    height: 400px;
-    grid-template-rows: 2fr 1fr 6fr 1fr;
-    grid-template-columns: 2fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 80px 40px 1fr 40px;
+    grid-template-columns: 1fr 150px;
+    gap: 3px;
 }
 
 .container > div {
-    border: 2px dashed red;
+    border: 2px solid black;
     text-align: center;
+    padding: 5px;
 }
 
 .topo {
